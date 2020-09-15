@@ -17,6 +17,6 @@ chmod +x massffuf.sh
 
 ### ./massffuf.sh [folder-name] [dictionary-file] [output-file]
 
-> folder-name:       name of the folder where PROBEDURLS-httprobe.txt is located  
-> dictionary-file:   dictionary file used for fuzzing paths  
-> output-file:       name of the output file  
+folder-name:       name of the folder where PROBEDURLS-httprobe.txt is located  
+dictionary-file:   dictionary file used for fuzzing paths  
+output-file:       name of the output file  
