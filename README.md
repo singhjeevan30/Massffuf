@@ -6,6 +6,11 @@ It's usage is very simple.
 
 ---
 
+## Requirements:
+Kindly install ffuf first from **https://github.com/ffuf/ffuf** 
+
+---
+
 ## Installation:
 git clone https://github.com/singhjeevan30/Massffuf/  
 cd Massffuf  
