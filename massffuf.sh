@@ -9,7 +9,7 @@ GREEN="\e[92m"
 RED='\033[1;31m'
 
 display_usage() { 
-		echo -e "\n${GREEN}This script must be run with super-user privileges." 
+		echo -e "\n${GREEN}This script is a wrapper around ffuf." 
 		echo -e "${WHITE}Usage:\n\n$0 <folder-name> <dictionary-file> <output-file>\n" 
 		echo -e "${WHITE}folder-name:      name of the folder where PROBEDURLS-httprobe.txt is located."
 		echo -e "${WHITE}dictionary-file:  dictionary file used for fuzzing paths."
@@ -49,12 +49,6 @@ then
 	display_usage
 	exit 1
 fi 
-
-if [[ $USER != "root" ]]
-then 
-	echo "This script must be run as root!" 
-	exit 1
-fi
 
 if [[ ( $# == "--help") ||  $# == "-h" ]] 
 then 
