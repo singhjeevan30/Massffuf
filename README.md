@@ -7,9 +7,9 @@ It's usage is very simple.
 ---
 
 ## Installation
-> git clone https://github.com/singhjeevan30/Massffuf/
-> cd Massffuf
-> chmod +x massffuf.sh
+> git clone https://github.com/singhjeevan30/Massffuf/  
+> cd Massffuf  
+> chmod +x massffuf.sh  
 
 ---
 
