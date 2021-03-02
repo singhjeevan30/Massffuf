@@ -1,0 +1,22 @@
+pipeline {
+  agent any
+  stages {
+  stage('Install dependencies') {
+      steps {
+        echo '#################################'              
+        echo 'Building...'       
+        echo '#################################'                      
+        //sh '/usr/local/bin/yarn install'
+      }
+    }   
+     
+    stage('Running Tests') {
+      steps {
+        echo '#################################'              
+        echo 'Running tests ...'          
+        echo '#################################'               
+        //sh '/usr/local/bin/yarn test'
+      }
+    }    
+  }
+}
